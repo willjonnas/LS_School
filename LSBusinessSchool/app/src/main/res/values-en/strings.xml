@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LSBusinessSchool</string>
+    <string name="sobre">About</string>
+    <string name="select_course">Select a Course</string>
+    <string name="dev_team">Dev Team</string>
+    <string name="alunos">Students</string>
+</resources>

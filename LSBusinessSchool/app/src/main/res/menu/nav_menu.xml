@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_turmas"
+        android:icon="@drawable/ic_classrooms"
+        android:title="Turmas" />
+
+
+    <item
+        android:id="@+id/nav_alunos"
+        android:icon="@drawable/ic_students"
+        android:title="Alunos" />
+
+
+    <item
+        android:id="@+id/nav_weather"
+        android:icon="@drawable/ic_weather"
+        android:title="Tempinho" />
+
+
+    <item
+        android:id="@+id/nav_contacts"
+        android:icon="@drawable/ic_location"
+        android:title="Onde estamos" />
+
+    <item android:title="Profile">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout_24"
+                android:title="@string/log_out" />
+        </menu>
+
+    </item>
+
+    <item android:title="LS Business School App">
+
+        <menu>
+
+            <item
+                android:id="@+id/tv_aboutus"
+                android:icon="@drawable/ic_construction_24"
+                android:title="@string/sobre" />
+
+            <item
+                android:id="@+id/tv_dev_team"
+                android:icon="@drawable/ic_logo_dev_24"
+                android:title="@string/dev_team" />
+        </menu>
+
+    </item>
+
+
+</menu>
